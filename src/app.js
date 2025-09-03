@@ -12,7 +12,7 @@ const app = express();
 app.use(express.json());
 
 app.use(cors({
-    origin: process.env.CORS_ORGIN || "https://68b88994b5f5f6053f772da0--sgms-frontend.netlify.app",
+    origin:  "https://68b88994b5f5f6053f772da0--sgms-frontend.netlify.app",
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization'],
     credentials: true,
