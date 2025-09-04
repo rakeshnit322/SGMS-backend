@@ -6,10 +6,13 @@ import dotenv from "dotenv";
 dotenv.config({ path: './.env' });
 
 
+
+
 const app = express();
 
 
 app.use(express.json());
+
 
 app.use(cors({
     origin:  "https://68b88994b5f5f6053f772da0--sgms-frontend.netlify.app",
